@@ -1,0 +1,85 @@
+<style>body{background-color:rgb(155,280,200);}
+.header-h1{text-align:right;} 
+.header-h1{color:blue;} h1{font-style: italic;} h1{font-size: 35px;} h1{margin-left:10px;}
+.header-h1 {padding-right: 40px;}
+.header-h3{text-align:right;}h3{font-size: 15px;}h3{color:blue;}h3{margin-left: 10px;}h3{padding-right: 40px;}
+.header-logo{
+    width: 40%;
+    max-width: 70px;
+    max-height: 100px;
+    float: left;
+    margin-right: 70px;
+    padding-left: 40px;
+}
+.main-fullstack-pic{text-align: center ;}
+.main-fullstack-pic img{width:40%;max-height: 300px;}
+.section-header{
+    color:rgb(360,100,180);
+    padding-left: 10px;}
+
+@media screen and (max-width: 100px) {
+    .individual-project1,
+    .individual-project2,
+    .individual-project3 {
+        display: flex;
+        text-align: center;
+        width: 20%;
+        margin-bottom: 10px;
+    }
+
+    .project-image {
+        min-width: 20%;
+    }
+      .project-image img{
+        width: 20%;
+    }
+
+    .project-detail {
+        margin-left: 15px;
+    }
+    .project-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 100px) {
+    .project-details {
+        display: flex;
+    }
+    .individual-project2 {
+        margin: 0px 20px;
+        text-align: center;
+        width: 30%;
+    }
+
+    .individual-project1,.individual-project3  {
+        text-align: center;
+        width: 30%;
+    }
+
+    .project-image img{
+        width: 30%;
+    }
+
+}
+
+.header-h1 {
+    margin: 10px 5px 0px;
+}
+
+.header-h3 {
+    margin: 10px 5px 5px;
+}
+.h2 {
+    display: block;
+    background-color: rgb(200,80,150);
+    height: 5px; 
+    margin: 30px 0px;
+    padding-left: 50px;
+}
+.div-i {
+    text-align: right;}
+
+ </style> 
